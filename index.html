@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
-
   <head>
-    <script>
-      console.log( new Date().getTime() );
-    </script>
+    <title>now</title>
   </head>
   <body>
+    <pre id="timestamp"></pre>
+    <script>
+      document.getElementById( 'timestamp' ).innerHTML = new Date().getTime();
+    </script>
   </body>
-
 </html>
